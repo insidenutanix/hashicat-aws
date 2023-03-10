@@ -4,7 +4,7 @@ module "s3-bucket" {
 
 tags = {
   Department = "IT" 
-  Billable = "True" 
+  Billable = true
 }
 }
 
